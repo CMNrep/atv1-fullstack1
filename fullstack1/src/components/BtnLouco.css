@@ -1,5 +1,5 @@
 .btnL {
-    background-color: #ff4081; 
+    background-color: #540069; 
     color: white;
     padding: 15px 30px;
     font-size: 20px;
@@ -11,6 +11,7 @@
     transition: transform 0.2s ease, background-color 0.3s ease;
     position: relative;
     overflow: hidden;
+    margin-left: 5px;
   }
   
   .btnL::before {
@@ -31,8 +32,8 @@
   }
   
   .btnL:hover {
-    background-color: #ff79b0;
-    transform: scale(1.05); 
+    background-color: #8300ab;
+    transform: scale(1.55); 
   }
 
   .btnL:active {

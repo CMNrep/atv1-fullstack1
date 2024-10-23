@@ -7,14 +7,14 @@ function Main() {
   const items = ['Batata', 'teste', 'sei-la', 'sem criavidade'];
 
   const Click = () => {
-    alert('não entenda errado');
+    alert('nada aqui');
   };
 
   return (
     <main className="main-content">
       <ItemLista items={items} />
       <Button text="Não clique aqui" />
-      <BtnLouco text="Sou difenciado" onClick={Click} />
+      <BtnLouco text="Diferente" onClick={Click} />
     </main>
   );
 }
