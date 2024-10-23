@@ -1,0 +1,41 @@
+.btnL {
+    background-color: #ff4081; 
+    color: white;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .btnL::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: translate(-50%, -50%) scale(0);
+    border-radius: 50%;
+    transition: transform 0.5s ease;
+  }
+  
+  .btnL:hover::before {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+  .btnL:hover {
+    background-color: #ff79b0;
+    transform: scale(1.05); 
+  }
+
+  .btnL:active {
+    transform: scale(0.95); 
+  }
+  
